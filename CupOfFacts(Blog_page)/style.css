@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#titleimg{
+    border-radius: 50%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: #f1f2fa;
+}
+#overall{
+    display: flex;
+    justify-content: center;
+}
+#top{
+    font-family: Poppins;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#h1{
+    font-size:40px;
+    transition: all 0.3s ;
+}
+
+#h1:hover{
+    font-size:40.8px;
+    transition: all 0.3s ;
+}
+
+
+#h2{
+    font-family: Poppins;
+    font-size:30px;
+    font-weight: 400;
+}
+#h3{
+    font-family: Poppins;
+    font-size:25px;
+    font-weight: 400;
+}
+#logo{
+    height: 120px;
+    width: 120px;
+}
+.about_coffee{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    display: inline;
+    vertical-align: top;
+}
+.whats{
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 400;   
+    transition: all 0.3s ;
+}
+.whats:hover{
+    font-size: 40.5px;
+    transition: all 0.3s ;
+}
+.whats_coffee{
+   
+    font-family: Poppins;
+    font-size: 18px;
+    color:#040710;
+
+}
+
+.lists{
+    font-family: Poppins;
+    font-size: 23px;
+    color:#45290e;
+}
+#side_head{
+    font-weight: 600;
+}
+#arabic_coffee{
+    border-radius: 40%;
+    height: 100px;
+    width: 150px;
+}
+#imgg{
+    display: flex;
+    justify-content: center;
+    height:200px ;
+    width:300px ;
+    border-radius: 10%;
+    transition:  0.9s ;
+}
+#imgg:hover{
+    border-radius: 5%;
+    transform:rotate(360deg);
+}
+#tablee{
+    font-family: Poppins;
+    font-size: 18px;
+    color:#040710;
+    background-color:#ffffff ;
+}
+#newimg{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    background-color: #1a1b20;
+    height: 170px;
+    width: 100%;
+}
+#footrow1{
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    color: white;
+}
+#footimg1{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+#footimg2{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+#mail{
+    font-family: Poppins;
+    color: #ffffff;
+    margin: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+#hr{
+    color: #ffffff;
+}
+#copyright{
+    font-family: Poppins;
+    color: #ffffff;
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
